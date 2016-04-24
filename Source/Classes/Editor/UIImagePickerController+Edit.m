@@ -158,10 +158,10 @@ static char cancelationBlockKey;
     }
 }
 
-- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
-{
-    [self handleCancellation:self.previousDelegate];
-
-}
+//- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+//{
+//    [self handleCancellation:self.previousDelegate];
+//
+//}
 
 @end
